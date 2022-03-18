@@ -86,7 +86,7 @@ class CodetumCMS {
      * @param options
      * @returns Promise<Content[]>
      */
-    async findMany(
+    public async findMany(
         slug: string,
         options?: ContentQueryOptions
     ): Promise<Content[]> {
